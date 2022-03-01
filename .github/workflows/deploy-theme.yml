@@ -5,7 +5,7 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@downthecodes
+      - uses: actions/checkout@master
       - uses: actions/setup-node@v1
         with:
           node-version: '10.x'
